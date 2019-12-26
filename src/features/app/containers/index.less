@@ -1,0 +1,38 @@
+@import "~@res/css/variable.less";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  background: @white;
+}
+
+.btn {
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 30px;
+  border-radius: 200px;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  outline: none;
+  margin-right: 5px;
+  &.btn-info {
+    background-color: #1B9AF7;
+    border-color: #1B9AF7;
+  }
+  &.btn-primary {
+    background-color: #7B72E9;
+    border-color: #7B72E9;
+  }
+  &.btn-danger {
+    background-color: #FF4351;
+    border-color: #FF4351;
+  }
+}
